@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dot-net-core\\xunitTest\\Mohamad-Lawand-xunitTesting-TDD\\FormulaApp\\FormulaApp.UnitTest\\FormulaApp.UnitTest.csproj": {}
+    "C:\\dot-net-core\\xunitTest\\Mohamad-Lawand-xunitTesting-TDD\\xunittesting-MohamadLawand\\FormulaApp\\FormulaApp.UnitTest\\FormulaApp.UnitTest.csproj": {}
   },
   "projects": {
-    "C:\\dot-net-core\\xunitTest\\Mohamad-Lawand-xunitTesting-TDD\\FormulaApp\\FormulaApp.UnitTest\\FormulaApp.UnitTest.csproj": {
+    "C:\\dot-net-core\\xunitTest\\Mohamad-Lawand-xunitTesting-TDD\\xunittesting-MohamadLawand\\FormulaApp\\FormulaApp.Api\\FormulaApp.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dot-net-core\\xunitTest\\Mohamad-Lawand-xunitTesting-TDD\\FormulaApp\\FormulaApp.UnitTest\\FormulaApp.UnitTest.csproj",
-        "projectName": "FormulaApp.UnitTest",
-        "projectPath": "C:\\dot-net-core\\xunitTest\\Mohamad-Lawand-xunitTesting-TDD\\FormulaApp\\FormulaApp.UnitTest\\FormulaApp.UnitTest.csproj",
+        "projectUniqueName": "C:\\dot-net-core\\xunitTest\\Mohamad-Lawand-xunitTesting-TDD\\xunittesting-MohamadLawand\\FormulaApp\\FormulaApp.Api\\FormulaApp.Api.csproj",
+        "projectName": "FormulaApp.Api",
+        "projectPath": "C:\\dot-net-core\\xunitTest\\Mohamad-Lawand-xunitTesting-TDD\\xunittesting-MohamadLawand\\FormulaApp\\FormulaApp.Api\\FormulaApp.Api.csproj",
         "packagesPath": "C:\\Users\\dheva\\.nuget\\packages\\",
-        "outputPath": "C:\\dot-net-core\\xunitTest\\Mohamad-Lawand-xunitTesting-TDD\\FormulaApp\\FormulaApp.UnitTest\\obj\\",
+        "outputPath": "C:\\dot-net-core\\xunitTest\\Mohamad-Lawand-xunitTesting-TDD\\xunittesting-MohamadLawand\\FormulaApp\\FormulaApp.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\dheva\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\dheva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,9 +40,85 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\dot-net-core\\xunitTest\\Mohamad-Lawand-xunitTesting-TDD\\xunittesting-MohamadLawand\\FormulaApp\\FormulaApp.UnitTest\\FormulaApp.UnitTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\dot-net-core\\xunitTest\\Mohamad-Lawand-xunitTesting-TDD\\xunittesting-MohamadLawand\\FormulaApp\\FormulaApp.UnitTest\\FormulaApp.UnitTest.csproj",
+        "projectName": "FormulaApp.UnitTest",
+        "projectPath": "C:\\dot-net-core\\xunitTest\\Mohamad-Lawand-xunitTesting-TDD\\xunittesting-MohamadLawand\\FormulaApp\\FormulaApp.UnitTest\\FormulaApp.UnitTest.csproj",
+        "packagesPath": "C:\\Users\\dheva\\.nuget\\packages\\",
+        "outputPath": "C:\\dot-net-core\\xunitTest\\Mohamad-Lawand-xunitTesting-TDD\\xunittesting-MohamadLawand\\FormulaApp\\FormulaApp.UnitTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dheva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\dot-net-core\\xunitTest\\Mohamad-Lawand-xunitTesting-TDD\\xunittesting-MohamadLawand\\FormulaApp\\FormulaApp.Api\\FormulaApp.Api.csproj": {
+                "projectPath": "C:\\dot-net-core\\xunitTest\\Mohamad-Lawand-xunitTesting-TDD\\xunittesting-MohamadLawand\\FormulaApp\\FormulaApp.Api\\FormulaApp.Api.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.12.0, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.1.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.69, )"
             },
             "coverlet.collector": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -75,7 +153,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.416\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
